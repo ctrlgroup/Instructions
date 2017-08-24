@@ -120,6 +120,8 @@ public struct CoachMark {
         let x = cutoutPath.bounds.origin.x + cutoutPath.bounds.width / 2
         let y = cutoutPath.bounds.origin.y + cutoutPath.bounds.height / 2
 
+      // swiftlint:disable identifier_name
         self.pointOfInterest = CGPoint(x: x, y: y)
+      // swiftlint:enable identifier_name
     }
 }

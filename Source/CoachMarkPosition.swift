@@ -24,9 +24,11 @@ import UIKit
 
 /// Define the horizontal position of the coach mark.
 enum CoachMarkPosition {
+  // swiftlint:disable identifier_name
     case Leading
     case Center
     case Trailing
+  // swiftlint:enable identifier_name
 }
 
 /// Define the horizontal position of the arrow.
